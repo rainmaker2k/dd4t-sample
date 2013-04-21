@@ -1,0 +1,39 @@
+﻿@using Sample.Models;
+@model GeneralDetail
+@if (@Model.Template == "General Detail" && @Model.Image != null)
+{
+    <div class="image_container">
+        <img src="@Model.Image" />
+    </div>
+}
+else if (@Model.Template == "General Detail With Logo")
+{
+    <div class="lightbox_container_logo">
+        <div class="company_container">
+            @if (@Model.Image != null)
+            {
+                <div class="company_img">
+                    <img src="@Model.Image">
+                </div>
+            }
+            <div class="company_desc">
+                <h3 class="verlagBlack black uppercased">
+                    @Model.Heading
+                </h3>
+                <p>
+                    @Html.Raw(Model.Summary)</p>
+            </div>
+        </div>
+    </div>
+}
+@foreach (var para in Model.Paragraphs)
+{
+    <div class="block_level">
+        <div class="section_title verlagBlack green uppercased">
+            @para.SubTitle
+        </div>
+        <div class="section_text">
+            @Html.Raw(para.BodyText)
+        </div>
+    </div>
+}

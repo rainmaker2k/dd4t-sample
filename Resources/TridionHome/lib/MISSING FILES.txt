@@ -1,0 +1,1 @@
+To run the content delivery instance on your local machine, you need to copy all jar files from the lib directory in the Tridion home installation folder should be copied into here.

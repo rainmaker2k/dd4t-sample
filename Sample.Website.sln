@@ -1,0 +1,181 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{44829CCD-6101-4C48-8A36-3AA4573F280E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TridionHome", "TridionHome", "{2D328CBF-B2A5-4488-9A42-2DEBE74B20E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{77FA6870-7B9A-4027-ABC9-EE0CA2DB250A}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\TridionHome\config\cd_ambient_cartridge_conf.xml = Resources\TridionHome\config\cd_ambient_cartridge_conf.xml
+		Resources\TridionHome\config\cd_ambient_conf.xml = Resources\TridionHome\config\cd_ambient_conf.xml
+		Resources\TridionHome\config\cd_deployer_conf.xml = Resources\TridionHome\config\cd_deployer_conf.xml
+		Resources\TridionHome\config\cd_dynamic_conf.xml = Resources\TridionHome\config\cd_dynamic_conf.xml
+		Resources\TridionHome\config\cd_licenses.xml = Resources\TridionHome\config\cd_licenses.xml
+		Resources\TridionHome\config\cd_link_conf.xml = Resources\TridionHome\config\cd_link_conf.xml
+		Resources\TridionHome\config\cd_monitor_conf.xml = Resources\TridionHome\config\cd_monitor_conf.xml
+		Resources\TridionHome\config\cd_wai_conf.xml = Resources\TridionHome\config\cd_wai_conf.xml
+		Resources\TridionHome\config\logback.xml = Resources\TridionHome\config\logback.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{318AB65A-2C2E-40EB-90F6-FA42AF1A2939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4118397E-EFC7-4FD8-85C3-E6DE4282E407}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD4T.Web.Mvc", "DD4T.Web.Mvc\DD4T.Web.Mvc.csproj", "{688354A0-541C-46B2-863C-A1CC4A69FF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Models", "Sample.Models\Sample.Models.csproj", "{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Website", "Sample.Website\Sample.Website.csproj", "{32D2CD99-D671-463A-B8FD-7D52C1C449A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Website.Mapping.Tridion", "Sample.Website.Mapping.Tridion\Sample.Website.Mapping.Tridion.csproj", "{C4418A75-C466-489B-98FE-D777F1DF8F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Website.Providers", "Sample.Website.Providers\Sample.Website.Providers.csproj", "{D7D84951-3B00-4638-A9C2-59E9474D2ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Website.Tridion", "Sample.Website.Tridion\Sample.Website.Tridion.csproj", "{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		DebugTridion2011|Any CPU = DebugTridion2011|Any CPU
+		DebugTridion2011|x64 = DebugTridion2011|x64
+		Release Test|Any CPU = Release Test|Any CPU
+		Release Test|x64 = Release Test|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		TridionDebug|Any CPU = TridionDebug|Any CPU
+		TridionDebug|x64 = TridionDebug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Debug|x64.Build.0 = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.DebugTridion2011|Any CPU.ActiveCfg = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.DebugTridion2011|Any CPU.Build.0 = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.DebugTridion2011|x64.ActiveCfg = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release Test|Any CPU.ActiveCfg = Release Test|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release Test|Any CPU.Build.0 = Release Test|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release Test|x64.ActiveCfg = Release Test|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release Test|x64.Build.0 = Release Test|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release|Any CPU.ActiveCfg = Release|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release|Any CPU.Build.0 = Release|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release|x64.ActiveCfg = Release|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.Release|x64.Build.0 = Release|x64
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{688354A0-541C-46B2-863C-A1CC4A69FF09}.TridionDebug|x64.ActiveCfg = Debug|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Debug|x64.ActiveCfg = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Debug|x64.Build.0 = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.DebugTridion2011|Any CPU.ActiveCfg = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.DebugTridion2011|x64.ActiveCfg = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.DebugTridion2011|x64.Build.0 = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release Test|Any CPU.ActiveCfg = Release Test|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release Test|Any CPU.Build.0 = Release Test|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release Test|x64.ActiveCfg = Release Test|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release Test|x64.Build.0 = Release Test|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release|x64.ActiveCfg = Release|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.Release|x64.Build.0 = Release|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.TridionDebug|x64.ActiveCfg = Debug|x64
+		{8FA5B4FA-6818-47A7-9279-CA79DEC31D8B}.TridionDebug|x64.Build.0 = Debug|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Debug|x64.ActiveCfg = Debug|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Debug|x64.Build.0 = Debug|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.DebugTridion2011|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.DebugTridion2011|Any CPU.Build.0 = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.DebugTridion2011|x64.ActiveCfg = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release Test|Any CPU.ActiveCfg = Release|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release Test|Any CPU.Build.0 = Release|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release Test|x64.ActiveCfg = Release|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release|x64.ActiveCfg = Release|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.Release|x64.Build.0 = Release|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.TridionDebug|x64.ActiveCfg = Debug|x64
+		{32D2CD99-D671-463A-B8FD-7D52C1C449A7}.TridionDebug|x64.Build.0 = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Debug|x64.ActiveCfg = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Debug|x64.Build.0 = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.DebugTridion2011|Any CPU.ActiveCfg = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.DebugTridion2011|x64.ActiveCfg = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.DebugTridion2011|x64.Build.0 = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release Test|Any CPU.ActiveCfg = Release Test|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release Test|Any CPU.Build.0 = Release Test|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release Test|x64.ActiveCfg = Release Test|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release Test|x64.Build.0 = Release Test|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release|x64.ActiveCfg = Release|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.Release|x64.Build.0 = Release|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.TridionDebug|x64.ActiveCfg = Debug|x64
+		{C4418A75-C466-489B-98FE-D777F1DF8F84}.TridionDebug|x64.Build.0 = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Debug|x64.ActiveCfg = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Debug|x64.Build.0 = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.DebugTridion2011|Any CPU.ActiveCfg = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.DebugTridion2011|x64.ActiveCfg = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.DebugTridion2011|x64.Build.0 = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release Test|Any CPU.ActiveCfg = Release Test|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release Test|Any CPU.Build.0 = Release Test|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release Test|x64.ActiveCfg = Release Test|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release Test|x64.Build.0 = Release Test|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release|x64.ActiveCfg = Release|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.Release|x64.Build.0 = Release|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.TridionDebug|x64.ActiveCfg = Debug|x64
+		{D7D84951-3B00-4638-A9C2-59E9474D2ED6}.TridionDebug|x64.Build.0 = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Debug|x64.ActiveCfg = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Debug|x64.Build.0 = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.DebugTridion2011|Any CPU.ActiveCfg = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.DebugTridion2011|x64.ActiveCfg = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.DebugTridion2011|x64.Build.0 = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release Test|Any CPU.ActiveCfg = Release Test|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release Test|Any CPU.Build.0 = Release Test|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release Test|x64.ActiveCfg = Release Test|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release Test|x64.Build.0 = Release Test|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release|x64.ActiveCfg = Release|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.Release|x64.Build.0 = Release|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.TridionDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.TridionDebug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.TridionDebug|x64.ActiveCfg = Debug|x64
+		{A8AFD04C-49AC-451D-A8A0-C807A3508B0F}.TridionDebug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D328CBF-B2A5-4488-9A42-2DEBE74B20E0} = {44829CCD-6101-4C48-8A36-3AA4573F280E}
+		{4118397E-EFC7-4FD8-85C3-E6DE4282E407} = {44829CCD-6101-4C48-8A36-3AA4573F280E}
+		{77FA6870-7B9A-4027-ABC9-EE0CA2DB250A} = {2D328CBF-B2A5-4488-9A42-2DEBE74B20E0}
+		{318AB65A-2C2E-40EB-90F6-FA42AF1A2939} = {2D328CBF-B2A5-4488-9A42-2DEBE74B20E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿@** Only the most generic stuff should go here *@
+@using System.Configuration
+@using DD4T.ContentModel
+@using Sample.Website.Tridion
+@model IPage
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link type="image/x-icon" href="~/_Images/favicon.ico" rel="icon" />
+    <link type="image/x-icon" href="~/_Images/favicon.ico" rel="shortcut icon" />
+    @RenderSection("Head", required: false)
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    @RenderSection("Styles", required: true)
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection("Scripts", required: true)
+</body>
+</html>

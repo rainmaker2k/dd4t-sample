@@ -1,0 +1,7 @@
+MSVCP71.DLL
+MSVCR71.DLL
+netrtsn.dll
+Tridion.ContentDelivery.AmbientData.dll
+Tridion.ContentDelivery.Configuration.dll
+Tridion.ContentDelivery.dll
+xmogrt.dll (32-bit version, 840KB)

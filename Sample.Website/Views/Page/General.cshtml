@@ -1,0 +1,11 @@
+﻿@using DD4T.ContentModel
+@using DD4T.Mvc.Html;
+@using Sample.Website.HtmlHelpers;
+@model IPage
+@{ Layout = "~/Views/Shared/Page.cshtml"; }
+@section Styles {
+    @* optional section to place stuff in html head *@
+}
+@section Scripts { }
+
+@Html.RenderComponentPresentations()
